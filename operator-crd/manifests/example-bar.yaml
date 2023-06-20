@@ -1,0 +1,7 @@
+apiVersion: crd.example.com/v1
+kind: Bar
+metadata:
+  name: example-bar
+spec:
+  deploymentName: example-bar
+  replicas: 1
