@@ -1,0 +1,8 @@
+apiVersion: "example.com/v1"
+kind: Demo
+metadata:
+  finalizers:
+  - example.com/finalizer
+  name: crd-demo
+spec:
+  name: test
